@@ -6,7 +6,7 @@
 
 ## Síntoma
 
-Quería importar el roster completo de 116 héroes desde la wiki oficial. Pedí el wikitext de cada página esperando leer `|role=` y `|lane=`, pero esos campos no estaban. El importador me dejaba héroes sin rol y sin carril, inútiles para el drafter.
+Quería importar el roster completo desde la wiki oficial. Pedí el wikitext de cada página esperando leer `|role=` y `|lane=`, pero esos campos no estaban. El importador me dejaba héroes sin rol y sin carril, inútiles para el drafter.
 
 ## Causa
 
