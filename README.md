@@ -12,7 +12,8 @@ auditoría de sistemas legacy.
 - [`dos-puntos-en-name-de-github-actions.md`](notas/dos-puntos-en-name-de-github-actions.md) — Un `:` dentro del `name:` de un paso de GitHub Actions rompe el YAML y no crea jobs.
 - [`mcp-stdio-sin-console-log.md`](notas/mcp-stdio-sin-console-log.md) — Un `console.log` en stdout rompe el protocolo MCP por stdio; los diagnósticos van a stderr.
 - [`nominatim-cache-lru-y-cola.md`](notas/nominatim-cache-lru-y-cola.md) — Nominatim público: 1 req/s, caché LRU y cola para no comerse el rate limit.
-- [`wiki-infobox-vs-categories.md`](notas/wiki-infobox-vs-categories.md) — La wiki de Mobile Legends no expone rol/carril en el wikitext; hay que leer `prop=categories`.
+- [`wiki-infobox-vs-categories.md`](notas/wiki-infobox-vs-categories.md) - La wiki de Mobile Legends no expone rol/carril en el wikitext; hay que leer `prop=categories`.
+- [`mediawiki-500-categorias.md`](notas/mediawiki-500-categorias.md) - MediaWiki corta en 500 categorías por request: sin seguir el `continue`, 18 héroes desaparecen en silencio.
 - [`chips-de-filtro-touch-action.md`](notas/chips-de-filtro-touch-action.md) — Chips de filtro que rehacían el `innerHTML` en cada click: en el celular había que tocar dos veces.
 - [`npm-audit-en-ci.md`](notas/npm-audit-en-ci.md) — `npm audit --omit=dev --audit-level=high` en CI para no mergear dependencias vulnerables.
 - [`secretos-en-informes-html.md`](notas/secretos-en-informes-html.md) — Un informe HTML de auditoría publicado en Pages filtraba contraseñas.
