@@ -7,6 +7,10 @@ la próxima vez. No es un blog de opinión; es memoria de trabajo respaldada por
 Stack de fondo: React/Next.js, C#/.NET, Python, Dart/Flutter, Node, CI/CD, APIs públicas y
 auditoría de sistemas legacy.
 
+![Índice de notas renderizado](docs/indice.png)
+
+Índice de las 11 notas del repo.
+
 ## Índice
 
 - [`dos-puntos-en-name-de-github-actions.md`](notas/dos-puntos-en-name-de-github-actions.md) — Un `:` dentro del `name:` de un paso de GitHub Actions rompe el YAML y no crea jobs.
